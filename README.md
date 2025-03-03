@@ -22,12 +22,12 @@ A modern, responsive portfolio website built with a minimalist dark theme design
 - CSS
 - JavaScript
 
-- ### Navigation
+- ## Navigation
 - Fixed left-side navigation
 - Smooth scrolling to sections
 - Active section highlighting
 
-### Sections
+## Sections
 - About
 - Experience
 - Projects
