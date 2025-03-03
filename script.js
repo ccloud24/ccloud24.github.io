@@ -79,7 +79,7 @@ function typeWriter(element, text, speed = 100) {
 document.addEventListener('DOMContentLoaded', () => {
     const subtitle = document.querySelector('.subtitle');
     if (subtitle) {
-        typeWriter(subtitle, "I build accessible, pixel-perfect digital experiences.");
+        typeWriter(subtitle, "Aspiring Computer Engineer | Seeking Summer Internship");
     }
 });
 
