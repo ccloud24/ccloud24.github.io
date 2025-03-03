@@ -273,7 +273,7 @@ section.visible {
 .project-tech-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 12px;  /* Space between skill boxes */
     margin-top: 20px;
     list-style: none;
 }
@@ -281,6 +281,16 @@ section.visible {
 .project-tech-list li {
     color: var(--slate);
     font-size: 13px;
+    background-color: var(--lightest-navy);  /* Background color for the boxes */
+    padding: 5px 10px;  /* Padding inside the boxes */
+    border-radius: 15px;  /* Rounded corners */
+    border: 1px solid var(--green);  
+    transition: var(--transition);
+}
+
+.project-tech-list li:hover {
+    transform: translateY(-2px);
+    background-color: rgba(100, 255, 218, 0.1);
 }
 
 /* Skills Grid */
