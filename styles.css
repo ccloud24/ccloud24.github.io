@@ -199,13 +199,33 @@ section.visible {
     list-style: none;
 }
 
-.experience-details li {
+.experience-details > li {
     position: relative;
     padding-left: 20px;
     margin-bottom: 10px;
 }
 
-.experience-details li::before {
+.experience-details > li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: var(--green);
+}
+
+.coursework-list {
+    list-style: none;
+    padding-left: 20px; /* Indentation for coursework items */
+    margin-top: 5px;
+}
+
+.coursework-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    color: var(--slate);
+}
+
+.coursework-list li::before {
     content: '▹';
     position: absolute;
     left: 0;
