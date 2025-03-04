@@ -33,7 +33,7 @@ body {
     background: var(--green);
     width: 0%;
     z-index: 1001;
-    transition: width 0.3s ease;
+    transition: width 0.2s ease;
 }
 
 /* Split Layout */
