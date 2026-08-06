@@ -1,129 +1,226 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connor Cloud - Computer Engineering</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Connor Cloud is a Computer Engineering student at Clemson who builds software, data projects, and machine-learning tools.">
+    <meta name="theme-color" content="#211f1a">
+    <meta property="og:title" content="Connor Cloud — Computer Engineer">
+    <meta property="og:description" content="A few software, data, and machine-learning projects I have worked on.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ccloud24.github.io/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Connor Cloud — Computer Engineer">
+    <meta name="twitter:description" content="A few software, data, and machine-learning projects I have worked on.">
+    <title>Connor Cloud — Computer Engineer</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="progress-bar" id="progressBar"></div>
-    
-    <div class="split-layout">
-        <!-- Static Left Side -->
-        <div class="left-side">
-            <div class="left-content">
-                <h1>Connor Cloud</h1>
-                <h2>Computer Engineering Student</h2>
-                <p class="subtitle">Aspiring Computer Engineer | Seeking Summer Internship</p>
-                
-                <nav class="side-nav">
-                    <a href="#about" class="nav-link">ABOUT</a>
-                    <a href="#experience" class="nav-link">EXPERIENCE</a>
-                    <a href="#projects" class="nav-link">PROJECTS</a>
-                </nav>
+    <div class="progress-bar" id="progressBar" aria-hidden="true"></div>
 
-                <div class="social-links">
-                    <a href="https://github.com/ccloud24" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/connor-cloud" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <header class="site-header">
+        <a class="wordmark" href="#top">Connor Cloud</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a href="#work">Work</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="resume-links" aria-label="Resume links">
+            <a href="resume-software-engineering.pdf" target="_blank" rel="noopener noreferrer">Software Resume</a>
+            <a href="resume-quantitative-development.pdf" target="_blank" rel="noopener noreferrer">Quant Resume</a>
+        </div>
+    </header>
+
+    <main id="top">
+        <section class="hero reveal" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow">Computer Engineering at Clemson University</p>
+                <h1 id="hero-title">Hi, I’m Connor. I build software and work with data.</h1>
+                <p class="hero-summary">
+                    Most of my recent work has been in Python: pulling data from APIs, cleaning it up,
+                    training models, and figuring out where those models fall short. I graduate in
+                    December 2026 and I’m looking for a place where I can keep learning from good engineers.
+                </p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#work">See what I’ve built <span aria-hidden="true">↓</span></a>
+                    <a class="button button-secondary" href="mailto:connorcloud194@gmail.com">Send me an email</a>
                 </div>
             </div>
-        </div>
 
-        <!-- Scrollable Right Side -->
-        <div class="right-side">
-            <a href="Connor Cloud-Resume.pdf" class="resume-button" target="_blank" rel="noopener noreferrer">
-                View Full Résumé
-                <i class="fas fa-external-link-alt"></i>
-            </a>
-
-            <section id="about">
-                <h3 class="section-title">About Me</h3>
-                <div class="about-content">
-                    <p>Passionate computer engineering student at Clemson who loves diving into new tech and figuring out how things work. I pick up new concepts quickly and am always eager to learn more. My coursework has given me solid experience in coding, computer networks, and the fundamentals of cyber security.</p>
+            <aside class="hero-panel" aria-label="Profile summary">
+                <div class="status"><span aria-hidden="true"></span> Looking for my next role</div>
+                <dl>
+                    <div>
+                        <dt>Based in</dt>
+                        <dd>Huntsville, Alabama</dd>
+                    </div>
+                    <div>
+                        <dt>Graduating</dt>
+                        <dd>December 2026</dd>
+                    </div>
+                    <div>
+                        <dt>Usually using</dt>
+                        <dd>Python, C++, SQL</dd>
+                    </div>
+                </dl>
+                <div class="profile-links">
+                    <a href="https://github.com/ccloud24" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+                    <a href="https://www.linkedin.com/in/connor-cloud" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
                 </div>
-            </section>
+            </aside>
+        </section>
 
-            <section id="experience">
-                <h3 class="section-title">Education</h3>
-                <div class="experience-item">
-                    <h4>Clemson University</h4>
-                    <p class="experience-title">Computer Engineering</p>
-                    <p class="experience-date">2022 - Present</p>
-                    <ul class="experience-details">
-                        <li>GPA: 3.21</li>
-                        <li>Expected Graduation: May 2026</li>
-                        <li>Relevant Coursework:
-                            <ul class="coursework-list">
-                                <li>Linear Algebra</li>
-                                <li>Data Structures and Algorithms</li>
-                                <li>Network Programming</li>
-                                <li>Discrete Math Structures</li>
-                                <li>Differential Equations</li>
-                            </ul>
-                        </li>
+        <section id="work" class="section reveal" aria-labelledby="work-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">A few things I’ve built</p>
+                    <h2 id="work-title">Projects</h2>
+                </div>
+            </div>
+
+            <article class="project project-featured">
+                <div class="project-meta">
+                    <p>Data pipeline · Machine learning</p>
+                    <a href="https://github.com/ccloud24/trends2alpha" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="project-layout">
+                    <div>
+                        <h3>Trends2Alpha</h3>
+                        <p class="project-lede">
+                            I wanted to see whether search interest could add anything useful to a
+                            basic market model, so I built a pipeline to test it.
+                        </p>
+                    </div>
+                    <div class="project-details">
+                        <p>
+                            It pulls Google Trends and Yahoo Finance data, lines up the time series,
+                            builds features, trains Random Forest models, and runs a chronological
+                            backtest. I also wrote down the important caveats, including execution
+                            costs and the risk of look-ahead bias.
+                        </p>
+                        <ul class="tag-list" aria-label="Technologies used">
+                            <li>Python</li><li>Pandas</li><li>scikit-learn</li><li>APIs</li><li>Time series</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="project-note">
+                    The version in the repo tests five stocks with about 20 features each.
+                    Each model uses 200 trees; the reported AUCs range from 0.867 to 0.956.
+                </p>
+            </article>
+
+            <div class="project-grid">
+                <article class="project project-compact">
+                    <div class="project-meta">
+                        <p>Regression · Applied ML</p>
+                        <a href="https://github.com/ccloud24/housing-price-forecast" target="_blank" rel="noopener noreferrer" aria-label="View Housing Price Predictor repository">GitHub <span aria-hidden="true">↗</span></a>
+                    </div>
+                    <h3>Neural Network Housing Price Predictor</h3>
+                    <p>
+                        I built this while learning how a regression model handles a mix of numbers
+                        and categories. It loads housing data from CSV, encodes and scales the inputs,
+                        trains a neural network, and predicts prices for new examples.
+                    </p>
+                    <ul class="tag-list" aria-label="Technologies used">
+                        <li>Python</li><li>TensorFlow</li><li>Keras</li><li>NumPy</li>
                     </ul>
-                </div>
-            </section>
+                </article>
 
-            <section id="projects">
-                <h3 class="section-title">Featured Projects</h3>
-                <div class="projects-grid">
-                    <div class="project-card">
-                        <div class="project-content">
-                            <div class="project-header">
-                                <i class="fas fa-home"></i>
-                                <div class="project-links">
-                                    <!-- Updated href to your existing repository -->
-                                    <a href="https://github.com/ccloud24/housing-price-forecast" target="_blank" rel="noopener noreferrer">
-                                        <i class="fab fa-github"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <h4 class="project-title">House Price Prediction Model</h4>
-                            <p class="project-description">
-                                Developed a neural network using TensorFlow to predict house prices based on features like square footage, 
-                                number of bedrooms/bathrooms, and location. Implements data preprocessing, feature scaling, and deep learning 
-                                techniques to provide accurate price estimations.
-                            </p>
-                            <ul class="project-tech-list">
-                                <li>Python</li>
-                                <li>TensorFlow</li>
-                                <li>Pandas</li>
-                                <li>NumPy</li>
-                                <li>Scikit-learn</li>
-                            </ul>
-                        </div>
+                <article class="project project-compact">
+                    <div class="project-meta">
+                        <p>Credit risk · Optimization</p>
+                        <span>Forage</span>
                     </div>
-                    <!-- Add more project cards as needed -->
-                </div>
-            </section>
+                    <h3>JPMorgan Quantitative Research</h3>
+                    <p>
+                        In JPMorgan’s quantitative research virtual program, I wrote Python for a
+                        loan-default exercise and used dynamic programming to divide continuous FICO
+                        scores into useful risk groups.
+                    </p>
+                    <ul class="tag-list" aria-label="Skills demonstrated">
+                        <li>Python</li><li>Dynamic programming</li><li>Risk modeling</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
 
-            <section id="skills">
-                <h3 class="section-title">Skills</h3>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h4>Relevant Skills</h4>
-                        <ul>
-                            <li>HTML, MATLAB, Python, JavaScript, C</li>
-                            <li>PyTorch, Keras, TensorFlow, Pandas, NumPy</li>
-                            <li>Microsoft Office Suite</li>
-                            <li>Google Drive, GitHub, Social Media</li>
-                        </ul>
-                    </div>
-                    <div class="skill-category">
-                        <h4>Certifications</h4>
-                        <ul>
-                            <li>CompTIA ITF+</li>
-                            <li>CompTIA Network+</li>
-                            <li>TestOut Network Pro</li>
-                        </ul>
-                    </div>
+        <section id="experience" class="section reveal" aria-labelledby="experience-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Where I’ve learned and worked</p>
+                    <h2 id="experience-title">School &amp; work</h2>
                 </div>
-            </section>
-        </div>
-    </div>
+            </div>
+
+            <div class="timeline">
+                <article class="timeline-item">
+                    <p class="timeline-date">Expected Dec 2026</p>
+                    <div>
+                        <p class="timeline-kicker">Education</p>
+                        <h3>Clemson University</h3>
+                        <p class="timeline-role">B.S. in Computer Engineering</p>
+                        <p>Coursework includes Data Structures and Algorithms, Network Programming, Linear Optimization, and Discrete Mathematics.</p>
+                    </div>
+                </article>
+                <article class="timeline-item">
+                    <p class="timeline-date">Summers 2024 &amp; 2025</p>
+                    <div>
+                        <p class="timeline-kicker">Work experience</p>
+                        <h3>Hillwood Country Club</h3>
+                        <p class="timeline-role">Server</p>
+                        <p>Worked 30–40 hours a week during two summers. Busy event shifts taught me how to stay organized, communicate clearly, and keep moving when several things need attention at once.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="skills" class="section reveal" aria-labelledby="skills-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">What I’ve worked with</p>
+                    <h2 id="skills-title">Skills</h2>
+                </div>
+            </div>
+
+            <div class="skills-grid">
+                <article>
+                    <p class="skill-label">Languages</p>
+                    <p>Python, C++, C, SQL, JavaScript, MATLAB</p>
+                </article>
+                <article>
+                    <p class="skill-label">Frameworks &amp; libraries</p>
+                    <p>React, Node.js, TensorFlow/Keras, scikit-learn, Pandas, NumPy</p>
+                </article>
+                <article>
+                    <p class="skill-label">Tools &amp; platforms</p>
+                    <p>Git, Linux, AWS EC2/RDS/Lambda, REST APIs, Excel</p>
+                </article>
+                <article>
+                    <p class="skill-label">Methods</p>
+                    <p>Feature engineering, classification, regression, testing, model evaluation, backtesting, optimization</p>
+                </article>
+            </div>
+
+            <div class="interests">
+                <p class="skill-label">Outside of class</p>
+                <p>I play with the Clemson Pickleball Club, contribute to WSBF Student Radio, and spend a lot of time on music, books, logic puzzles, and strategy games.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact reveal" aria-labelledby="contact-title">
+            <p class="eyebrow">Get in touch</p>
+            <h2 id="contact-title">Thanks for stopping by.</h2>
+            <p>If you’re hiring for a software, quantitative development, or data-focused role—or just want to talk about one of these projects—I’d be glad to hear from you.</p>
+            <a class="contact-email" href="mailto:connorcloud194@gmail.com">connorcloud194@gmail.com <span aria-hidden="true">↗</span></a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed and built by Connor Cloud.</p>
+        <p>© <span id="year">2026</span></p>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
